@@ -1,0 +1,36 @@
+<h1 class='ms-3 mt-3'>Fakerで遊ぼう！</h1>
+<div class='container'>
+  <div class='row'>
+    <div class='col text-start'>
+      <div class='container border h-100'>
+        <% if @text.present?%>
+          <p class='lead'><%= @text.feeling %> NEWS </p>
+          <p ><%= @text.contents %></p>
+        <% else %>
+          <br>
+        <% end %>
+      </div>
+    </div>
+    <div class='col-2 text-end'>
+      <%= image_tag 'news.jpeg', class:'img-fluid'%>
+    </div>
+  </div>
+  <div class='row text-end mt-3'>
+    <div class='container'>
+      <%= link_to '更新', top_index_path, class: 'btn btn-primary', data: { turbo_method: :post } %>
+      <%= link_to 'ログを削除', destroy_all_path, class: 'btn btn-danger', data: { turbo_method: :delete, turbo_confirm: 'ログを削除する？' } %>
+    </div>
+  </div>
+  <div class='row'>
+    <h3>ログ</h3>
+      <% if @logs.present?%>
+        <% @logs.each do |l|%>
+          <%= render 'shared/log', l: l %>
+        <% end %>
+      <% else %>
+        <div class='container mb-3 text-center'>
+          <p class='lead'>ログなし</p>
+        </div>
+      <% end %>
+  </div>
+</div>

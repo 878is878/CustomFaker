@@ -1,0 +1,120 @@
+# Files in the config/locales directory are used for internationalization and
+# are automatically loaded by Rails. If you want to use locales other than
+# English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t "hello"
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t("hello") %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more about the API, please read the Rails Internationalization guide
+# at https://guides.rubyonrails.org/i18n.html.
+#
+# Be aware that YAML interprets the following case-insensitive strings as
+# booleans: `true`, `false`, `on`, `off`, `yes`, `no`. Therefore, these strings
+# must be quoted to be interpreted as strings. For example:
+#
+#     en:
+#       "yes": yup
+#       enabled: "ON"
+
+en:
+  hello: "Hello world"
+  faker:
+    random_tales:
+      titles:
+        - "今日の天気"
+        - "新しいレストランのレビュー"
+        - "最近読んだおすすめの本"
+        - "趣味のおすすめ道具"
+        - "面白いYouTubeチャンネル"
+        - "一緒に勉強をする仲間を募集中"
+        - "旅行先のおすすめスポット"
+        - "ペットの面白エピソード"
+        - "心理学に関する興味深い記事を読んだのでシェアします"
+        - "最近のニュースについての意見交換"
+        - "おすすめのDIYプロジェクト"
+        - "最近の健康法"
+        - "おすすめの映画やドラマの感想"
+        - "レシピ交換：美味しい料理のアイデア"
+        - "おすすめの自己啓発に関する書籍"
+        - "フィットネスやトレーニングのアドバイス"
+        - "テクノロジーに関する最新の情報共有"
+        - "マーケティング戦略についての議論"
+        - "おすすめのポッドキャストやラジオ番組"
+        - "趣味の写真を共有しましょう!"
+
+      particles:
+        - "は"
+        - "が"
+        - "に"
+        - "と"
+        - "で"
+        - "でも"
+        - "こそ"
+        - "まで"
+        - "か"
+        - "の"
+        - "を"
+        - "に"
+        - "へ"
+
+      predicates:
+        - "歩く"
+        - "飛ぶ"
+        - "走る"
+        - "泣く"
+        - "笑う"
+        - "跳ぶ"
+        - "読む"
+        - "書く"
+        - "話す"
+        - "聞く"
+        - "見る"
+        - "考える"
+        - "遊ぶ"
+        - "食べる"
+        - "寝る"
+        - "起きる"
+        - "働く"
+        - "泳ぐ"
+        - "思う"
+        - "感じる"
+        - "待つ"
+        - "得る"
+        - "失う"
+        - "始める"
+        - "終わる"
+        - "忘れる"
+        - "覚える"
+        - "帰る"
+        - "出る"
+        - "入る"
+        - "知る"
+        - "学ぶ"
+        - "教える"
+        - "調べる"
+        - "分かる"
+        - "取る"
+        - "渡す"
+        - "運ぶ"
+        - "作る"
+        - "造る"
+        - "壊す"
+        - "直す"
+        - "輝く"
+        - "消える"
+        - "出会う"
+        - "分ける"
+        - "試す"
+        - "変える"
+        - "見つける"
